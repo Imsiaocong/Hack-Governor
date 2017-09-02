@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		86D8E9C91F24EE06004DE2B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D8E9C81F24EE06004DE2B6 /* AppDelegate.swift */; };
-		86D8E9CB1F24EE06004DE2B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D8E9CA1F24EE06004DE2B6 /* ViewController.swift */; };
 		86D8E9CE1F24EE06004DE2B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86D8E9CC1F24EE06004DE2B6 /* Main.storyboard */; };
 		86D8E9D01F24EE06004DE2B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D8E9CF1F24EE06004DE2B6 /* Assets.xcassets */; };
 		86D8E9D31F24EE06004DE2B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86D8E9D11F24EE06004DE2B6 /* LaunchScreen.storyboard */; };
 		86D8E9DE1F24EE07004DE2B6 /* XProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D8E9DD1F24EE07004DE2B6 /* XProjectTests.swift */; };
 		86D8E9E91F24EE07004DE2B6 /* XProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D8E9E81F24EE07004DE2B6 /* XProjectUITests.swift */; };
+		86EEC10E1F4C8788001B980E /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEC10D1F4C8788001B980E /* Datas.swift */; };
+		86EEC1111F4C8A0F001B980E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEC1101F4C8A0F001B980E /* CollectionViewCell.swift */; };
+		86EEC1131F4C8C40001B980E /* IMG_0252.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 86EEC1121F4C8C40001B980E /* IMG_0252.MOV */; };
+		86EEC1151F4C8C70001B980E /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEC1141F4C8C70001B980E /* VideoViewController.swift */; };
+		86EEC1181F4C9B37001B980E /* DWCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEC1171F4C9B37001B980E /* DWCollectionViewLayout.swift */; };
+		86EEC11A1F4D490A001B980E /* DWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEC1191F4D490A001B980E /* DWViewController.swift */; };
+		86EEC11C1F4D4E9F001B980E /* DWCollectionViewUpLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEC11B1F4D4E9F001B980E /* DWCollectionViewUpLayout.swift */; };
+		86EEC11E1F4D5052001B980E /* DWTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEC11D1F4D5052001B980E /* DWTransition.swift */; };
+		86EEC1201F4D51D3001B980E /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEC11F1F4D51D3001B980E /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		86D8E9C51F24EE06004DE2B6 /* XProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D8E9C81F24EE06004DE2B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86D8E9CA1F24EE06004DE2B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86D8E9CD1F24EE06004DE2B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86D8E9CF1F24EE06004DE2B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86D8E9D21F24EE06004DE2B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		86D8E9E41F24EE07004DE2B6 /* XProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D8E9E81F24EE07004DE2B6 /* XProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XProjectUITests.swift; sourceTree = "<group>"; };
 		86D8E9EA1F24EE07004DE2B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86EEC10D1F4C8788001B980E /* Datas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		86EEC1101F4C8A0F001B980E /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		86EEC1121F4C8C40001B980E /* IMG_0252.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_0252.MOV; sourceTree = "<group>"; };
+		86EEC1141F4C8C70001B980E /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		86EEC1171F4C9B37001B980E /* DWCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWCollectionViewLayout.swift; sourceTree = "<group>"; };
+		86EEC1191F4D490A001B980E /* DWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWViewController.swift; sourceTree = "<group>"; };
+		86EEC11B1F4D4E9F001B980E /* DWCollectionViewUpLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWCollectionViewUpLayout.swift; sourceTree = "<group>"; };
+		86EEC11D1F4D5052001B980E /* DWTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWTransition.swift; sourceTree = "<group>"; };
+		86EEC11F1F4D51D3001B980E /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,10 @@
 		86D8E9BC1F24EE06004DE2B6 = {
 			isa = PBXGroup;
 			children = (
+				86EEC1121F4C8C40001B980E /* IMG_0252.MOV */,
+				86EEC1161F4C9B07001B980E /* Model */,
+				86EEC10F1F4C89FB001B980E /* View */,
+				86EEC10C1F4C835F001B980E /* Controller */,
 				86D8E9C71F24EE06004DE2B6 /* XProject */,
 				86D8E9DC1F24EE07004DE2B6 /* XProjectTests */,
 				86D8E9E71F24EE07004DE2B6 /* XProjectUITests */,
@@ -98,11 +118,11 @@
 			isa = PBXGroup;
 			children = (
 				86D8E9C81F24EE06004DE2B6 /* AppDelegate.swift */,
-				86D8E9CA1F24EE06004DE2B6 /* ViewController.swift */,
 				86D8E9CC1F24EE06004DE2B6 /* Main.storyboard */,
 				86D8E9CF1F24EE06004DE2B6 /* Assets.xcassets */,
 				86D8E9D11F24EE06004DE2B6 /* LaunchScreen.storyboard */,
 				86D8E9D41F24EE06004DE2B6 /* Info.plist */,
+				86EEC10D1F4C8788001B980E /* Datas.swift */,
 			);
 			path = XProject;
 			sourceTree = "<group>";
@@ -123,6 +143,34 @@
 				86D8E9EA1F24EE07004DE2B6 /* Info.plist */,
 			);
 			path = XProjectUITests;
+			sourceTree = "<group>";
+		};
+		86EEC10C1F4C835F001B980E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				86EEC1191F4D490A001B980E /* DWViewController.swift */,
+				86EEC1141F4C8C70001B980E /* VideoViewController.swift */,
+				86EEC11F1F4D51D3001B980E /* IntroViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		86EEC10F1F4C89FB001B980E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86EEC1101F4C8A0F001B980E /* CollectionViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		86EEC1161F4C9B07001B980E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86EEC1171F4C9B37001B980E /* DWCollectionViewLayout.swift */,
+				86EEC11B1F4D4E9F001B980E /* DWCollectionViewUpLayout.swift */,
+				86EEC11D1F4D5052001B980E /* DWTransition.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +241,7 @@
 				TargetAttributes = {
 					86D8E9C41F24EE06004DE2B6 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = P37972B7HV;
+						DevelopmentTeam = PGC62Z29HJ;
 						ProvisioningStyle = Automatic;
 					};
 					86D8E9D81F24EE06004DE2B6 = {
@@ -236,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86D8E9D31F24EE06004DE2B6 /* LaunchScreen.storyboard in Resources */,
+				86EEC1131F4C8C40001B980E /* IMG_0252.MOV in Resources */,
 				86D8E9D01F24EE06004DE2B6 /* Assets.xcassets in Resources */,
 				86D8E9CE1F24EE06004DE2B6 /* Main.storyboard in Resources */,
 			);
@@ -262,8 +311,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86D8E9CB1F24EE06004DE2B6 /* ViewController.swift in Sources */,
+				86EEC1201F4D51D3001B980E /* IntroViewController.swift in Sources */,
 				86D8E9C91F24EE06004DE2B6 /* AppDelegate.swift in Sources */,
+				86EEC10E1F4C8788001B980E /* Datas.swift in Sources */,
+				86EEC1111F4C8A0F001B980E /* CollectionViewCell.swift in Sources */,
+				86EEC11E1F4D5052001B980E /* DWTransition.swift in Sources */,
+				86EEC11C1F4D4E9F001B980E /* DWCollectionViewUpLayout.swift in Sources */,
+				86EEC1151F4C8C70001B980E /* VideoViewController.swift in Sources */,
+				86EEC1181F4C9B37001B980E /* DWCollectionViewLayout.swift in Sources */,
+				86EEC11A1F4D490A001B980E /* DWViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P37972B7HV;
+				DEVELOPMENT_TEAM = PGC62Z29HJ;
 				INFOPLIST_FILE = XProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dahu.XProject;
@@ -428,7 +484,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P37972B7HV;
+				DEVELOPMENT_TEAM = PGC62Z29HJ;
 				INFOPLIST_FILE = XProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dahu.XProject;
@@ -514,6 +570,7 @@
 				86D8E9EF1F24EE07004DE2B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86D8E9F01F24EE07004DE2B6 /* Build configuration list for PBXNativeTarget "XProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +579,7 @@
 				86D8E9F21F24EE07004DE2B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86D8E9F31F24EE07004DE2B6 /* Build configuration list for PBXNativeTarget "XProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +588,7 @@
 				86D8E9F51F24EE07004DE2B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
