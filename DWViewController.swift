@@ -54,7 +54,5 @@ class DWViewController: UIViewController, UICollectionViewDelegate, UICollection
         return 1
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        self.present(VideoViewController(), animated: true, completion: nil)
-    }
+    
 }
